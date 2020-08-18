@@ -21,7 +21,6 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.find do |element|
     element == "Earth!" || element == "Wind!"|| element == "Fire!" || element == "Water!" || element == "Heart!"|
 end
-end
 
   # Use an Enumerable to check if any string in the passed in array is greater than 4 characters long
   # Return the boolean result of this check
