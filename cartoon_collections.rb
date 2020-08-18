@@ -9,7 +9,7 @@ def summon_captain_planet(planeteer_calls)
   string.upcase
   planeteer_calls.map |string|
   "#{string}!"
-  planeteer_calls
+  p planeteer_calls
 end
 
 def long_planeteer_calls(planeteer_calls)
