@@ -19,8 +19,8 @@ end
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   planeteer_calls.find do |element|
-    element = valid_calls
-  else nil
+    element == valid_calls
+end
 end
 
   # Use an Enumerable to check if any string in the passed in array is greater than 4 characters long
